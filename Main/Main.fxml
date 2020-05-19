@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="262.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.MainController">
+   <children>
+      <Button fx:id="Btn1" layoutX="9.0" layoutY="179.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="55.0" text="1" onAction="#Btn1Clicked" >
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="Btn2" layoutX="70.0" layoutY="179.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="55.0" text="2" onAction="#Btn2Clicked">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="Btn3" layoutX="133.0" layoutY="179.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="55.0" text="3" onAction="#Btn3Clicked">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="Btnp" layoutX="196.0" layoutY="179.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="55.0" text="+" onAction="#BtnpClicked">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="Btn4" layoutX="9.0" layoutY="243.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="55.0" text="4" onAction="#Btn4Clicked">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="Btn5" layoutX="70.0" layoutY="243.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="55.0" text="5" onAction="#Btn5Clicked">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="Btn6" layoutX="133.0" layoutY="243.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="55.0" text="6" onAction="#Btn6Clicked">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="Btnm" layoutX="196.0" layoutY="243.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="55.0" text="-" onAction="#BtnmClicked">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="Btn7" layoutX="9.0" layoutY="308.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="55.0" text="7" onAction="#Btn7Clicked">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="Btn8" layoutX="70.0" layoutY="308.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="55.0" text="8" onAction="#Btn8Clicked">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="Btn9" layoutX="133.0" layoutY="308.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="55.0" text="9" onAction="#Btn9Clicked">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="Btnmu" layoutX="196.0" layoutY="308.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="55.0" text="*" onAction="#BtnmuClicked">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="Btneq" layoutX="6.0" layoutY="372.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="55.0" text="=" onAction="#BtneqClicked">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="Btn0" layoutX="70.0" layoutY="372.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="55.0" text="0" onAction="#Btn0Clicked">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="Btndot" layoutX="134.0" layoutY="372.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="55.0" text="." onAction="#BtndotClicked">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="Btndiv" layoutX="196.0" layoutY="372.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="55.0" text="/" onAction="#BtndivClicked">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="Btnpm" layoutX="134.0" layoutY="439.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="55.0" text="+/-" onAction="#BtnpmClicked">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="Btncls" layoutX="197.0" layoutY="439.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="55.0" text="C" onAction="#BtnclsClicked">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Label fx:id="TxtF" alignment="CENTER_RIGHT" layoutX="17.0" layoutY="26.0" prefHeight="136.0" prefWidth="234.0" textAlignment="RIGHT">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
