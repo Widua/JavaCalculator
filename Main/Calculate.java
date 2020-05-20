@@ -26,17 +26,12 @@ public class Calculate {
     }
 
     public String DIVIDE (){
-        try {
-            score=a/b;
-            if(score==Double.NEGATIVE_INFINITY || score==Double.POSITIVE_INFINITY) {
-                throw new ArithmeticException();
+            if(b!=0){
+                score=a/b;
+            }else{
+                return "You divide by zero!" ;
             }
-        }catch(ArithmeticException arithmeticException) {
-            return "You divide by zero!" ;
-        }
-
-
-        return String.valueOf(score);
+            return String.valueOf(score);
     }
 
 }
